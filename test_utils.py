@@ -5,7 +5,7 @@ import utils
 5 ) , (3 , 4 , 7 ) , (4 , 5 , 9 ) ] )
 def test_add (a , b , expected ) :
     result = utils . add (a , b )
-    assert result = = expected
+    assert result == expected
 @pytest . mark . parametrize ( "a , b , expected " , [ (1 , 2 , - 1 ) , (2 , 3
 , - 1 ) , (3 , 4 , - 1 ) , (4 , 5 , - 1 ) ]
 )
